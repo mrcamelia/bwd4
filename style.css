@@ -92,6 +92,9 @@ body {
     height: 100px;
     margin-top: -10px;
 }
+.right .qna.active .question .accordion {
+    font-weight: bold;
+}
 
 @media (max-width: 960px) {
     body {
@@ -110,7 +113,7 @@ body {
         background-size: 70% 100px;
     }
     .question {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
     .title {
         font-size: 2.5rem;
@@ -118,7 +121,6 @@ body {
     .right {
         margin-top: -140px;
         margin-left: auto;
-        font-size: 1rem;
         margin-right: 10px;
     }
     #small {
