@@ -99,7 +99,7 @@ body {
 @media (max-width: 960px) {
     body {
         margin-top: 120px;
-        margin-bottom: 19%;
+        margin-bottom: 10%;
         width: 60%;
     }
     .content {
