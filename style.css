@@ -8,6 +8,7 @@ body {
     padding: 5%;
     width: 1000px;
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-attachment: fixed;
 }
 .content {
     background-color: white;
@@ -95,12 +96,13 @@ body {
 .right .qna.active .question .accordion {
     font-weight: bold;
 }
-
+.right .qna.active .question img {
+    transform: rotate(180deg);
+}
 @media (max-width: 960px) {
     body {
         margin-top: 120px;
         width: 60%;
-        margin-bottom: 50%;
     }
     .content {
         margin-top: 0%;
